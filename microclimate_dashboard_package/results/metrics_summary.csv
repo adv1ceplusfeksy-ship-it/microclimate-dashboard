@@ -1,0 +1,8 @@
+﻿metric,value,unit,comment
+MAE_VPD,0.0001,kPa,Проверка корректности расчета VPD по T/RH
+RMSE_VPD,0.0004,kPa,Проверка корректности расчета VPD по T/RH
+latency_p95,2.216,sec,Имитация задержки end-to-end MQTT
+data_completeness,99.44,%,Доля записей без quality_flag=missing
+climate_compliance_rate,85.01,%,"Доля времени, когда параметры находятся в целевых диапазонах"
+days,14,days,Длительность эмулированного набора
+telemetry_rows,100800,rows,Количество записей в длинном формате
